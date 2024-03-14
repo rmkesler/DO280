@@ -3,4 +3,5 @@ image:
   name: etherpad
   tag: 1.8.18
 route:
-  host: development-etherpad.apps.ocp4.example.com
+  host: etherpad.apps.ocp4.example.com
+replicaCount: 3
